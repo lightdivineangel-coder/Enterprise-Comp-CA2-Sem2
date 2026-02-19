@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #000;
+}
+
+/* HERO using Rihanna image */
+.hero {
+  height: 90vh;
+  background:
+    linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)),
+    url("music image 4.jpg") center/cover;
+}
+
+/* ALBUM CARDS */
+.album-card img {
+  border-radius: 14px;
+  transition: 0.3s;
+  background: white;
+  padding: 10px;
+}
+
+.album-card img:hover {
+  transform: scale(1.05);
+}
+
+.album-card h5 {
+  font-weight: 600;
+}
+
+/* FEATURE STRIP */
+.feature-strip {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0d6efd, #ff4da6);
+}
+
+/* NAV */
+.navbar-brand {
+  letter-spacing: 2px;
+}
+
+/* APPLE STYLE TEXT */
+h1, h2 {
+  letter-spacing: -1px;
+}
+
+
